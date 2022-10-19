@@ -53,7 +53,7 @@ img {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 4vw;
   text-shadow: 3px 3px #9c9c9c;
   line-height: 1;
   font-family: 'Poppins', sans-serif;
@@ -82,7 +82,7 @@ li {
   align-content: center;
   padding-left: 40px;
   padding-right: 40px;
-  font-size: 28px;
+  font-size: 2vw;
   font-weight: 500;
   margin: 5px;
   font-family: Arial;
@@ -101,14 +101,14 @@ li a:hover {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 4vw;
   font-family: Arial;
   letter-spacing: 3px;
 }
 
 .h3 {
   line-height: 0.7;
-  font-size: 35px;
+  font-size: 2.5vw;
   font-family: 'Poppins', sans-serif;
   background-color: #cfcfcf;
   margin-bottom: 0;
@@ -125,7 +125,7 @@ h2 {
 .item5 p {
     font-family: Arial;
     margin-top: 0;
-    font-size: 24px;
+    font-size: 1.7vw;
     padding-top: -10px;
 }
 
@@ -146,7 +146,7 @@ h2 {
 .item6 h4 {
   border: 5px dashed grey;
   font-family: 'Poppins', sans-serif;
-  font-size: 28px;
+  font-size: 2vw;
   margin: 0;
   margin-bottom: 10px;
   padding-left: 5px;
@@ -154,7 +154,7 @@ h2 {
 
 .item6 p {
   font-family: Arial;
-  font-size: 24px;
+  font-size: 2vw;
   padding: 0;
 }
 
@@ -171,7 +171,7 @@ h2 {
 }
 
 .item8 p {
-  font-size: 24px;
+  font-size: 1.6vw;
   font-family: Arial;
   padding: 5px;
   margin: 0;
@@ -190,7 +190,7 @@ h2 {
 
 .item13 p {
   font-family: Arial;
-  font-size: 24px;
+  font-size: 1.6vw;
   text-align: center;
 }
 
@@ -204,7 +204,7 @@ h2 {
 
 .item14 p {
   font-family: Arial;
-  font-size: 22px;
+  font-size: 1.4vw;
   width: 90%;
   margin: 20px;
   margin-left: 50px;
@@ -229,13 +229,13 @@ h5 {
   margin-top: 35px;
   margin-left: 20px;
   font-family: 'Poppins', sans-serif;
-  font-size: 36px;
+  font-size: 2.5vw;
   align-self: flex-start;
   text-shadow: 2px 2px #9c9c9c;
 }
 
 .extraPara1 {
-  font-size: 20px;
+  font-size: 1.4vw;
 }
 
 .item15 {
@@ -244,7 +244,7 @@ h5 {
 
 .item15 p {
   font-family: Arial;
-  font-size: 22px;
+  font-size: 1.5vw;
   margin-top: 0;
   margin-left: 10px;
   margin-right: 20px;
@@ -257,7 +257,7 @@ h5 {
 }
 
 .item16 h5 {
-  font-size: 40px;
+  font-size: 3vw;
   margin: 0;
   text-align: center;
   border: 5px dashed black;
@@ -284,6 +284,11 @@ h5 {
   color: white;
 }
 
+.item19 p {
+    font-size: 1.5vw;
+    margin: 0;
+}
+
 .item20 {
   grid-area: 18 / 3 / 20 / 5;
   margin: 0;
@@ -296,17 +301,21 @@ h5 {
 .item21 p {
   margin: 0;
   font-family: Arial;
-  font-size: 24px;
+  font-size: 1.55vw;
 }
 
 .item22 {
     grid-area: 20 / 1 / 21 / 5;
     font-family: Arial;
-    font-size: 24px;
     border: 5px dashed black;
     padding: 0;
     padding-left: 5px;
     padding-top: 4px;
+}
+
+.item22 p {
+    font-size: 1.5vw;
+    margin: 0;
 }
 
 .item23 {
@@ -331,7 +340,7 @@ h5 {
 
 .item27 h5 {
   text-align: center;
-  font-size: 40px;
+  font-size: 3vw;
   letter-spacing: 4px;
   padding-top: 10px;
 }
@@ -352,6 +361,7 @@ h5 {
   font-family: Arial;
   margin: 0;
   padding: 10px;
+  font-size: 1.55vw;
 }
 
 p a {
@@ -360,18 +370,19 @@ p a {
 
 .emphasis {
   font-family: 'Poppins', sans-serif;
-  font-size: 22px;
+  font-size: 1.5vw;
 }
 
 
 .item29 {
   grid-area: 25 / 1 / 28 / 3;
   margin-top: 20px;
+
 }
 
 .item29 p {
   margin: 0;
-  padding: 20px;
+  font-size: 1.6vw;
 }
 
 .item30 {
@@ -408,7 +419,7 @@ p a {
 
 .item31 p, .item32 p, .item33 p {
   margin: 0;
-  font-size: 22px;
+  font-size: 1.4vw;
   padding: 15px;
 }
 
@@ -420,7 +431,7 @@ p a {
 .item34 h5 {
   letter-spacing: 15px;
   margin: 0;
-  font-size: 45px;
+  font-size: 3vw;
 }
 
 .item35 {
@@ -431,7 +442,7 @@ p a {
 .item34 p {
   margin: 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 1.3vw;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -441,7 +452,7 @@ p a {
 
 table, th, td {
   border: 4px solid;
-  font-size: 20px;
+  font-size: 1.3vw;
 }
 
 table {
@@ -460,13 +471,13 @@ td {
 }
 
 .item37 div {
-  font-size: 40px;
+  font-size: 3vw;
   letter-spacing: 10px;
   font-family:'Poppins', sans-serif;
 }
 
 .item37 p {
-  font-size: 20px;
+  font-size: 1.3vw;
   letter-spacing: 1px;
 }
 
