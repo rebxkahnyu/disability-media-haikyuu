@@ -757,7 +757,6 @@ p {
 
 .hq26 {
   grid-area: 26 / 2 / 27 / 7;
-  border: 3px solid red;
 }
 
 .hq26 table, th, td {
