@@ -20,7 +20,7 @@
 .grid2 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(67, 130px);
+  grid-template-rows: repeat(68, 130px);
   gap: 20px;
   /* background-color: #2196F3; */
   padding: 10px;
@@ -893,11 +893,18 @@ p {
   grid-area: 64 / 1 / 66 / 4;
 }
 
+.hq46 {
+  grid-area: 67 / 1 / 68 / 7;
+  border: 5px dashed black;
+  padding-top: 20px;
+}
 
+.hq46 p {
+  font-size: 1.6vw;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
 
-/* div {
-  border: 3px solid red;
-} */
 
 div .title {
   font-size: 2.2vw;
