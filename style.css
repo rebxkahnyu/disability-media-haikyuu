@@ -825,6 +825,9 @@ p {
 
 .hq48 {
   grid-area: 35 / 1 / 38 / 3;
+  padding: 10px;
+  padding-bottom: 30px;
+  margin-top: -20px;
 }
 
 
