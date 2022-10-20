@@ -488,6 +488,7 @@ td {
 .item37 p {
   font-size: 1.3vw;
   letter-spacing: 1px;
+  color:grey;
 }
 
 .item38 {
@@ -550,6 +551,10 @@ p {
 .hq4 p {
     font-size: 1.3vw;
     line-height: 1.5;
+}
+
+.hq4 a {
+  color: grey;
 }
 
 .hq5 {
@@ -783,6 +788,7 @@ p {
 .hq28 b {
   font-size: 2.5vw;
   text-shadow: 3px 3px #9c9c9c;
+  font-family: Arial;
 }
 
 .hq28 p {
@@ -908,8 +914,9 @@ p {
   grid-area: 64 / 1 / 66 / 4;
 }
 
-div .title {
+h6 {
   font-size: 2.2vw;
-  padding-bottom: 5px;
+  margin: 0;
+  padding: 0;
   font-family: 'Poppins', sans-serif;
 }
