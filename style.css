@@ -7,7 +7,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(38, 130px);
+  grid-template-rows: repeat(38, calc(100vw / 11));
   gap: 20px;
   padding: 10px;
   margin-top: 20px;
@@ -19,7 +19,7 @@
 .grid2 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(68, 130px);
+  grid-template-rows: repeat(68, calc(100vw / 11));
   gap: 20px;
   padding: 10px;
   margin-top: 20px;
@@ -546,6 +546,7 @@ p {
 .hq4 h5 {
   text-shadow: none;
   margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .hq4 p {
@@ -582,7 +583,7 @@ p {
 .hq7 {
   grid-area: 10 / 1 / 12 / 4;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   border: 5px dashed black;
 }
 
@@ -916,4 +917,8 @@ h6 {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+}
+
+div {
+  border: 3px solid red;
 }
