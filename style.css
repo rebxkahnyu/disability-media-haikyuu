@@ -176,7 +176,7 @@ h2 {
 }
 
 .item8 p {
-  font-size: 1.5vw;
+  font-size: 1.6vw;
   font-family: Arial;
   padding: 5px;
   margin: 0;
@@ -196,7 +196,7 @@ h2 {
 
 .item13 p {
   font-family: Arial;
-  font-size: 1.6vw;
+  font-size: 1.7vw;
   text-align: center;
 }
 
@@ -210,7 +210,7 @@ h2 {
 
 .item14 p {
   font-family: Arial;
-  font-size: 1.3vw;
+  font-size: 1.4vw;
   width: 90%;
   margin: 20px;
   margin-left: 50px;
@@ -242,7 +242,7 @@ h5 {
 }
 
 .extraPara1 {
-  font-size: 1.3vw;
+  font-size: 1.4vw;
       text-align: justify;
 }
 
@@ -311,7 +311,7 @@ h5 {
 .item21 p {
   margin: 0;
   font-family: Arial;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
       text-align: justify;
 }
 
@@ -323,7 +323,7 @@ h5 {
 }
 
 .item22 p {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     margin: 0;
     text-align: justify;
 }
@@ -387,13 +387,13 @@ p a {
 
 .item29 {
   grid-area: 25 / 1 / 28 / 3;
-  margin-top: 20px;
+  margin:0;
 
 }
 
 .item29 p {
   margin: 0;
-  font-size: 1.6vw;
+  font-size: 1.7vw;
 
 }
 
@@ -546,7 +546,7 @@ p {
 .hq4 h5 {
   text-shadow: none;
   margin-bottom: 10px;
-  margin-top: 0;
+  margin-top: 20px;
 }
 
 .hq4 p {
@@ -583,7 +583,7 @@ p {
 .hq7 {
   grid-area: 10 / 1 / 12 / 4;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   border: 5px dashed black;
 }
 
@@ -642,7 +642,7 @@ p {
 }
 
 .hq12 p {
-  font-size: 1.4vw;
+  font-size: 1.5vw;
 }
 
 .hq13 {
@@ -662,7 +662,7 @@ p {
 .hq15 p {
   margin: 0;
   padding: 7px;
-  font-size: 1.4vw;
+  font-size: 1.5vw;
 }
 
 .hq16 {
@@ -917,8 +917,4 @@ h6 {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-}
-
-div {
-  border: 3px solid red;
 }
