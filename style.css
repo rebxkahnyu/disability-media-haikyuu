@@ -176,7 +176,7 @@ h2 {
 }
 
 .item8 p {
-  font-size: 1.6vw;
+  font-size: 1.5vw;
   font-family: Arial;
   padding: 5px;
   margin: 0;
@@ -188,7 +188,7 @@ h2 {
   grid-area: 9 / 5 / 11 / 7;
   background: #cfcfcf;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -210,7 +210,7 @@ h2 {
 
 .item14 p {
   font-family: Arial;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   width: 90%;
   margin: 20px;
   margin-left: 50px;
@@ -242,7 +242,7 @@ h5 {
 }
 
 .extraPara1 {
-  font-size: 1.4vw;
+  font-size: 1.3vw;
       text-align: justify;
 }
 
@@ -289,14 +289,14 @@ h5 {
   margin: 0;
   background-image: linear-gradient(to right, black, grey);
   padding: 10px;
-  margin-bottom: 65px;
   color: white;
+
 }
 
 .item19 p {
     font-size: 1.5vw;
     margin: 0;
-        text-align: justify;
+    text-align: justify;
 }
 
 .item20 {
@@ -311,7 +311,7 @@ h5 {
 .item21 p {
   margin: 0;
   font-family: Arial;
-  font-size: 1.55vw;
+  font-size: 1.5vw;
       text-align: justify;
 }
 
@@ -323,9 +323,9 @@ h5 {
 }
 
 .item22 p {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     margin: 0;
-        text-align: justify;
+    text-align: justify;
 }
 
 .item23 {
