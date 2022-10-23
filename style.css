@@ -529,6 +529,10 @@ td {
   grid-area: 3 / 1 / 7 / 5;
 }
 
+.hq1 img {
+  object-fit: contain;
+}
+
 .hq2 {
   grid-area: 1 / 5 / 3 / 7;
   margin-top: -70px;
@@ -895,6 +899,10 @@ p {
   margin-top: -20px;
 }
 
+.hq48 img {
+  object-fit: contain;
+}
+
 
 .hq32 {
   grid-area: 35 / 3 / 38 / 7;
@@ -936,6 +944,10 @@ p {
 
 .hq39 {
   grid-area: 53 / 4 / 56 / 7;
+}
+
+.hq39 img {
+  object-fit: contain;
 }
 
 .hq40 {
