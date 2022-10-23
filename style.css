@@ -969,6 +969,7 @@ p {
 
 .hq36 {
   grid-area: 45 / 2 / 53 / 7;
+  padding-top: 25px;
   /* text-align: right; */
 }
 
