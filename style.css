@@ -295,7 +295,7 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .item19 p {
@@ -686,11 +686,17 @@ p {
     grid-area: 14 / 5 / 17 / 7;
 }
 
+.hq14 img {
+  object-fit: fill;
+}
+
 .hq15 {
   grid-area: 17 / 4 / 18 / 7;
   text-align: justify;
   border: 5px solid grey;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hq15 p {
@@ -816,18 +822,18 @@ p {
   border: 5px dashed black;
   text-align: center;
   padding: 13px;
-  padding-top: 20px;
+
 }
 
 .hq27 span, p {
   font-size: 1.4vw;
+
 }
 
 .hq27 p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 10px;
 }
+
 
 .hq28 {
   grid-area: 29 / 1 / 31 / 7;
