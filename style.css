@@ -683,11 +683,11 @@ p {
 }
 
 .hq14 {
-    grid-area: 14 / 5 / 17 / 7;
+    grid-area: 13 / 5 / 17 / 7;
 }
 
 .hq14 img {
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .hq15 {
