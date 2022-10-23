@@ -144,8 +144,13 @@ nav li {
   color: dimgrey;
   font-size: 1.1vw;
   font-family: 'Poppins', sans-serif;
+
 }
 
+#li2 {
+  border: 3px solid dimgrey;
+  line-height: 1;
+}
 
 h2 {
   font-size: 4vw;
