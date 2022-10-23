@@ -556,6 +556,8 @@ p {
 
 .hq3 p {
   font-size: 1.5vw;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .hq3 .h3 {
@@ -586,7 +588,7 @@ p {
   background-color:#cfcfcf;
   text-align: center;
   font-family: Arial;
-
+  padding-top: 10px;
 }
 
 .hq5 h5 {
@@ -594,7 +596,6 @@ p {
   font-family: Arial;
   margin-bottom: 0;
   margin-top: 25px;
-
 }
 
 .hq5 b {
@@ -689,6 +690,7 @@ p {
   grid-area: 17 / 4 / 18 / 7;
   text-align: justify;
   border: 5px solid grey;
+
 }
 
 .hq15 p {
@@ -739,8 +741,8 @@ p {
 }
 
 .hq21 p {
-  margin-top: -60px;
-  font-size: 1.4vw;
+  margin-top: -70px;
+  font-size: 1.3vw;
   text-align: justify;
 }
 
@@ -755,8 +757,8 @@ p {
 }
 
 .hq23 p {
-  margin-top: -60px;
-  font-size: 1.4vw;
+  margin-top: -70px;
+  font-size: 1.3vw;
   text-align: justify;
 }
 
@@ -766,16 +768,25 @@ p {
 
 .hq25 {
   grid-area: 24 / 1 / 26 / 6;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .td1 {
   background-color: #cfcfcf;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .td2 {
   text-align: justify;
   background-color: #c4c4c4;
   font-size: 1.25vw;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .hq25 table, th, td {
@@ -791,10 +802,12 @@ p {
 
 .hq26 {
   grid-area: 26 / 2 / 27 / 7;
+
 }
 
 .hq26 table, th, td {
   border: 4px solid;
+
 }
 
 
